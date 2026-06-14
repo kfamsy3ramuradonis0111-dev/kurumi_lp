@@ -1,1 +1,4 @@
-# kurumi_lp
+images
+index.html
+package.json
+README.md
