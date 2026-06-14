@@ -1,4 +1,4 @@
-=<!doctype html>
+く=<!doctype html>
 <html lang="ja">
 <head>
   <meta charset="utf-8" />
@@ -136,5 +136,19 @@
       <a class="hotspot" href="https://note.com/kurumi06506" target="_blank" rel="noopener" aria-label="noteを読む" style="left:39%; top:81%; width:25%; height:5%;"></a>
     </section>
   </main>
+  <script>
+const video02 = document.getElementById("video02");
+
+const observer = new IntersectionObserver((entries) => {
+  entries.forEach(entry => {
+    if (entry.isIntersecting) {
+      video02.currentTime = 0;
+      video02.play();
+    }
+  });
+}, { threshold: 0.6 });
+
+observer.observe(video02);
+</script>
 </body>
 </html>
