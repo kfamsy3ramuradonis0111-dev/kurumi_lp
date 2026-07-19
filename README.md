@@ -12,7 +12,7 @@ Vercelにそのままアップできる静的HTML形式です。
 
 ## 設定済みリンク
 
-- LINE: https://lin.ee/Om3wUQ8
+- LINE: https://lin.ee/tzZWkAf
 - Instagram: https://www.instagram.com/kurumi.totonoe?igsh=aThncjYwMG94OGk2&utm_source=qr
 - note: https://note.com/kurumi06506
 
